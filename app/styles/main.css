@@ -1,0 +1,64 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+.threads {
+  padding: 2px;
+  border: 1px solid antiquewhite;
+  height: 220px;
+  overflow: auto;
+  margin-bottom: 5px;
+}
+
+.thread {
+  background-color: aliceblue;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.replies {
+  padding: 2px;
+  border: 1px solid antiquewhite;
+  height: 220px;
+  overflow: auto;
+  margin-bottom: 5px;
+}
+
+.reply {
+  background-color: navajowhite;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
