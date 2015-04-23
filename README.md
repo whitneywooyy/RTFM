@@ -8,6 +8,7 @@ We're going to create a multi-user, real-time forum (RTFM).
 ## Step 1: Create Project
 - Create the basic structure of your Angular application naming your app 'rtfmApp'.
 - After you include Angular, include firebase, angularfire, and ngRoute as scripts in your html file (Google them), then the rest of your basic angular files.
+// DONE
 
 
 ## Step 2: Configure Module
@@ -20,6 +21,7 @@ We're going to create a multi-user, real-time forum (RTFM).
 ```
   <div class="container" ng-view></div>
 ```
+// DONE
 
 ## Step 3: Create Login Skeleton
 
