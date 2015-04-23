@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="rtfmApp">
 	<head>
 	</head>
-	<body>
+	<body ng-controller="mainCtrl">
 		<div class="container" ng-view></div>
-
 
 		<!-- SCRIPTS -->
 		<script src="js/angular.min.js"></script>
@@ -14,5 +13,10 @@
 		<script src="js/app.js"></script>
 		<script src="js/mainCtrl.js"></script>
 		<script src="js/mainService.js"></script>
+		<script src="login/loginCtrl.js"></script>
+		<script src="threads/threadsCtrl.js"></script>
+		<script src="user/userService.js"></script>
+		<script src="threads/threadsService.js"></script>
+		
 	</body>
 </html>

@@ -5,14 +5,16 @@ app.constant('fb', {
 });	// End app.constant 
 
 app.config(function($routeProvider){
+	
+	// Routers
 	$routeProvider
 	.when('/login', {
 		templateUrl: 'login/login.html',
-		controller: 'login/loginCtrl.js'
+		controller: 'loginCtrl'
 	})
 	.when('/threads', {
-
-
+		templateUrl: 'threads/threads.html',
+		controller: 'threadsCtrl'
 	})
 	.when('/threads/:threadId', {
 

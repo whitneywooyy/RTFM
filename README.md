@@ -96,6 +96,7 @@ Now we need to actually create our Thread view and controller.
 - Test your login and make sure that it forwards you to the stubbed threads view that we just built.
 
 Tomorrow we'll add an 'event listener' which listens for anytime out app wants to changes routes. When it changes a route, it will go to the UserService we built and see if that user is logged in. If the user is logged in, we'll continue to the threads view. If the user is not logged in, we'll redirect the user to the Login view.
+// DONE
 
 ## Step 8: Create a Thread Service and Use Firebase Refs
 
@@ -122,6 +123,7 @@ this.getThreads = function(){
 ```
 
 - Now, have the other method (```getThread```) take in a ```threadId``` as its only parameter and return a new instance of Firebase passing in base URL + ```/threads/``` + ```threadId```.
+// DONE
 
 
 ## Step 9: Resolve the Firebase Data for your Controllers
