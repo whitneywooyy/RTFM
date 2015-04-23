@@ -34,6 +34,7 @@ We're going to create a multi-user, real-time forum (RTFM).
 - Inside ```login.html``` create a text input bound to ```$scope.username``` (using ```ng-model```) and a button that calls ```logMeIn()``` when clicked.
 
 - Now head over to your ```loginCtrl.js``` file and create the ```logMeIn``` function which (for now) will just alert ```$scope.username```.
+// DONE
 
 ## Step 4: Create a Constant with your Firebase URL
 
