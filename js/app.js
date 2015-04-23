@@ -1,5 +1,9 @@
 var app = angular.module('rtfmApp', ['firebase', 'ngRoute']);
 
+app.constant('fb', {
+	url: 'https://glaring-torch-260.firebaseio.com' 
+});	// End app.constant 
+
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/login', {

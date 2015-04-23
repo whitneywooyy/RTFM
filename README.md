@@ -51,6 +51,7 @@ You can think of this ```fb``` constant as any other service. We're now able to 
   url: 'https://your-firebase-project'
 });
 ```
+// DONE
 
 ## Step 5: User Service
 
