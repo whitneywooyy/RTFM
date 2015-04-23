@@ -85,6 +85,7 @@ $scope.$apply(function(){
 	$location.path('/dashboard/' + user.uid)
 });
 ```
+// DONE
 
 ## Step 7: Create your Threads Assets
 
