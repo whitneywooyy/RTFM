@@ -149,6 +149,7 @@ angular.module('rtfmApp')
   });
 
 ```
+// DONE
 
 ### Step 10: Set up Threads view
 
