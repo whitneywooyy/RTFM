@@ -70,6 +70,7 @@ We'll create a User Service which will manage the state of our user. Again, we w
 - Create a ```getUser``` method on your service (```this```) which, for now, just returns the local ```user``` variable you create earlier.
 
 *Tomorrow we'll make it so this Service actually manages a user using Firebase*.
+// DONE
 
 ## Step 6: Reroute After Login
 
