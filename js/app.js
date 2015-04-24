@@ -16,13 +16,22 @@ app.config(function($routeProvider){
 		templateUrl: 'threads/threads.html',
 		controller: 'threadsCtrl',
 		resolve: {
-			threadsRef: function(threadService){
-				return threadService.getThreads();
+			threadsRef: function(threadsService){
+				return threadsService.getThreads();
 			}
 		}
 	})
 	.when('/threads/:threadId', {
-
+		templateUrl: 'threads/thread.html',
+		controller: 'threadCtrl',
+		resolve: {
+			threadRef: function(threadsService, $route){
+				return threadsService.getThread($route.current.params.threadId);
+			},
+			commentsRef: function(threadsService, $route){
+				return threadsService.getComments($route.current.params.threadId);
+			}	// Doesn't Work
+		}
 
 	})
 	.otherwise({

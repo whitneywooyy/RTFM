@@ -196,6 +196,7 @@ angular.module('rtfmApp')
 
   });
 ```
+// DONE
 
 ### Step 11: Set Up Individual Thread Views
 

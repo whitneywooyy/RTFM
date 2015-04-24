@@ -12,5 +12,8 @@ app.service('threadsService', function(fb){
 		return new Firebase('https://glaring-torch-260.firebaseio.com' + '/threads/' + threadId);
 
 	};	// End this.getThread
+	this.getComments = function(threadId){
+		return new Firebase('https://glaring-torch-260.firebaseio.com' + '/threads/' + threadId + '/comments');
+	};	// End this.getComments
 
 });	// End app.service
